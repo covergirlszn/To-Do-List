@@ -1,0 +1,21 @@
+/*
+so make a list of strings
+can you run js in terminal
+
+new list
+
+see typebox
+take text from type box as a string
+and add it to the list when the button is clicked
+
+
+
+display the list
+
+when the clear button is clicked remove all items from the list
+when the x button next to each item is clicked then delete the item from the list and display
+
+save that list with local storage and dem tinfs
+
+
+*/

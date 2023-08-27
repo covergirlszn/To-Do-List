@@ -13,20 +13,33 @@ body{
 .todo-app{
     width:100%;
     max-width: 540px;
-    background: white;
+    min-height: 540px;
+    background: #f16f6f;
     margin: 100px auto 20px;
-    padding:40px 30px 70px;
-    border-radius: 10px;
+    padding:10px 70px 70px;    
+    text-align: center;
+
 }
 
 .todo-app h2{
     color: #000;
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
-.todo-app img{
-    width: 30px;
-    margin-left: 20px;
+span{
+    background-color: #535353;
+    color: #fff;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+
+}
+
+ul{
+    background-color: #fff;
+    padding: 40px;
+    height: 340px;
+    text-align: left;
+    font-size: larger;
 }
