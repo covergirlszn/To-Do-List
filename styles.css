@@ -11,6 +11,7 @@ main{
     margin-top:10px;
     height: 500px;
     padding-right: 25px;
+    font-family: 'Roboto Mono', serif;
 }
 /*is #fff common for other browsers?
 else #ffffff
