@@ -9,9 +9,9 @@ main{
     width:80%;
     max-width:600px ;
     margin-top:10px;
-    height: 500px;
-    padding-right: 25px;
-    font-family: 'Roboto Mono', serif;
+    height: 580px;
+    font-family: 'Roboto Mono', monospace ;
+    font-weight: 400;
 }
 /*is #fff common for other browsers?
 else #ffffff
@@ -25,10 +25,11 @@ added a bit of padding to compromse the border adding a few
 header{
     background-color: #ffb4b4;
     width: 100%;
+    max-width: 575px;
     height: 20px;
-    padding: 10px 10px;
+    padding: 10px 10px 15px 10px;
     border: solid #ff4141;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 header img {
@@ -36,37 +37,52 @@ header img {
     width: 20px;
 }
 
-
-/*.todo-app{
-    width:100%;
-    max-width: 540px;
-    min-height: 540px;
-    background: #f16f6f;
-    margin: 100px auto 20px;
-    padding:10px 70px 70px 70px;    
-    text-align: center;
-
-}*/
-
-
-.todo-app h2{
-    color: #000;
-    font-size: 30px;
+.container{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 560px;
 }
 
-span{
-    background-color: #535353;
-    color: #fff;
+
+
+section, .btn, .btn2 {
+    background-color: #cbcbcb;
+    color: #d34747;
     padding: 10px;
+    width: 75%;
+    border: 1px solid #000;
+    display: inline-block;
+
+}
+
+.btn, .btn2{
+    width: 7%;
+    color: #000;
+    padding: 10px 25px;
+    float: right;
+    text-align: center;
+
+}
+
+.btn2{
+    padding: 10px 20px;
     width: fit-content;
-    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.tasks{
+    background-color: #ffedf2;
+    border: 1px solid #000;
+    margin: 20px auto;
+    height: 350px;
+
 
 }
 
 ul{
-    background-color: #fff;
-    padding: 40px;
-    height: 340px;
+    
     text-align: left;
     font-size: larger;
 }
