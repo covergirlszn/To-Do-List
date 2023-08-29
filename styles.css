@@ -1,28 +1,26 @@
-body{
+body {
     font-family: 'Courier New', Courier, monospace;
-    background-color:#ffc0cb;
-    padding:15px;
+    background-color: #ffc0cb;
+    padding: 15px;
 }
 
-main{
-    background-color: #ffffff; 
-    width:80%;
-    max-width:600px ;
-    margin-top:10px;
+main {
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 10px;
     height: 580px;
-    font-family: 'Roboto Mono', monospace ;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 400;
 }
+
 /*is #fff common for other browsers?
 else #ffffff
 added a bit of padding to compromse the border adding a few 
 */
 
-.inner{
-    display: inline;
-}
 
-header{
+header {
     background-color: #ffb4b4;
     max-width: 575px;
     height: 20px;
@@ -39,32 +37,35 @@ header img {
     width: 20px;
 }
 
-.container{
+.container {
     margin: 20px auto;
     width: 90%;
     max-width: 560px;
 }
 
 
-.sect, .btn, .btn2 {
+.sect,
+.btn,
+.btn2 {
     background-color: #cbcbcb;
     padding: 12px;
     width: 75%;
     border: 1px solid #000;
     display: inline-block;
-    outline:none;
-
-} 
-
-::placeholder{
-    color: #d34747fa;
-    font-style: italic;
-    font-size: 16px;
-    font-family: 'Roboto Mono', monospace ;
+    outline: none;
 
 }
 
-.btn, .btn2{
+::placeholder {
+    color: #d34747fa;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.btn,
+.btn2 {
     width: 17%;
     color: #000;
     padding: 10px 25px;
@@ -73,21 +74,21 @@ header img {
 
 }
 
-.btn2{
+.btn2 {
     padding: 10px 20px;
     width: fit-content;
     margin-bottom: 20px;
 }
 
-.item{
+.item {
     display: block;
     position: relative;
     cursor: pointer;
-    padding:10px 50px;    
+    padding: 10px 50px;
 
 }
 
-.tasks{
+.tasks {
     background-color: #ffedf2;
     border: 1px solid #000;
     margin: 20px auto;
@@ -95,15 +96,19 @@ header img {
 
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     display: none;
 }
 
-.check{
+input[type="checkbox"]:checked~.check {
+    background-color: #ffb4b4;
+}
+
+.check {
     background-color: #ffffff;
     width: 20px;
     height: 20px;
-    position:absolute ;
+    position: absolute;
     top: 0;
     left: 0px;
     border: solid #ff4141;
@@ -111,22 +116,26 @@ input[type="checkbox"]{
 
 }
 
-input[type="checkbox"]:checked ~ .check{
-background-color: #ffb4b4;
-}
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.check:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-[type="checkbox"] ~ .check:after {
+[type="checkbox"]:checked~.check:after {
     display: block;
-  }
+}
 
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
 
-ul{
+}
+
+ul {
     font-size: larger;
     list-style-type: none;
     padding: 10px;
