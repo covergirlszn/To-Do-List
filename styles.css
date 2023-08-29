@@ -82,14 +82,9 @@ header img {
 .item{
     display: block;
     position: relative;
-    padding-left: 20px;
     cursor: pointer;
-}
+    padding:10px 5px;    
 
-.item:hover{
-/*
-put on an x for the hover thing
-*/
 }
 
 .tasks{
@@ -97,7 +92,8 @@ put on an x for the hover thing
     border: 1px solid #000;
     margin: 20px auto;
     height: 350px;
-
+/*even if i don't pick up the language, my kids will know about sobolo, 
+vapour rub, waist beads new nose ring and */
 
 }
 
@@ -105,9 +101,19 @@ input[type="checkbox"]{
     display: none;
 }
 
+.check{
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid #ff4141;
+
+}
+
 ul{
     
-    text-align: left;
     font-size: larger;
     list-style-type: none;
 }
