@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
     <title>To Do List <3 </title>
-    <!--i need to check the purpose of meta tags and also how the DOM works in web services
+            <!--i need to check the purpose of meta tags and also how the DOM works in web services
     also your github vs code repo needs to work in a way that your emails and name are linked...
     that way when you work with different pcs it actually shows up on your scoreboard.
     -->
 </head>
+
 <body>
     <h1>hi guys</h1>
     I am so very excited to be coding again,<br>
     <br> well not really because deep down I care about nothing
-<br><br>
+    <br><br>
     but anyways welcome to my lil html code space
 
-<main>
-    <header>
+    <main>
+        <header>
             To-Do List
             <img src="#">
-    </header>
-    <div class="container">
-            <section>
-                hey girl!, what we doing?
-            </section>
-            <div class = "btn">OK       
+        </header>
+        <div class="container">
+            <form action="#" method="post">
+                <section>
+                    <input type="text" placeholder="hey girl!, what we doing?" class="sect">
+                    <div class="btn">OK
+                </section>
+
+            </form>
+
+
+
+            <div class="tasks">
+
+                <ul>
+                    <label class="item">Hop up out the bed
+                        <input type="checkbox">
+                        <span class="check">
+                    </label>
+
+                    <label class="item">Turn my swag on
+                        <input type="checkbox">
+                        <span class="check">
+                    </label>
+
+                    <label class="item">Kiss my reflection in the mirror
+                        <input type="checkbox">
+                        <span class="check">
+                    </label>
+
+                    <label class="item">journal and pray
+                        <input type="checkbox">
+                        <span class="check">
+                    </label>
+
+                </ul>
+            </div>
+
+            <div class="btn2"> clear </div>
         </div>
-    
-
-        <div class="tasks">
-        
-        <ul>
-            <li>Hop up out the bed</li>
-            <li>Turn my swag on</li>
-            <li>Kiss my reflection in the mirror</li>
-            <li>journal and pray</li>
-<!-- there should be checkboxes here -->
-
-        </ul></div>
-    
-         <div class="btn2"> clear </div>
-    </div>
-</div>
-</main>
+        </div>
+        </div>
+    </main>
 </body>
+
 </html>
