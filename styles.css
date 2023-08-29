@@ -65,7 +65,7 @@ header img {
 }
 
 .btn, .btn2{
-    width: 7%;
+    width: 17%;
     color: #000;
     padding: 10px 25px;
     float: right;
@@ -84,6 +84,10 @@ header img {
     position: relative;
     padding-left: 20px;
     cursor: pointer;
+}
+
+.item:hover{
+    mn ;
 }
 
 .tasks{
