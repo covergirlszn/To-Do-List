@@ -83,7 +83,7 @@ header img {
     display: block;
     position: relative;
     cursor: pointer;
-    padding:10px 5px;    
+    padding:10px 50px;    
 
 }
 
@@ -92,8 +92,6 @@ header img {
     border: 1px solid #000;
     margin: 20px auto;
     height: 350px;
-/*even if i don't pick up the language, my kids will know about sobolo, 
-vapour rub, waist beads new nose ring and */
 
 }
 
@@ -105,15 +103,31 @@ input[type="checkbox"]{
     background-color: #ffffff;
     width: 20px;
     height: 20px;
-    position: absolute;
+    position:absolute ;
     top: 0;
-    left: 0;
+    left: 0px;
     border: solid #ff4141;
+    margin: 10px;
 
 }
 
+input[type="checkbox"]:checked ~ .check{
+background-color: #ffb4b4;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.check:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+[type="checkbox"] ~ .check:after {
+    display: block;
+  }
+
+
 ul{
-    
     font-size: larger;
     list-style-type: none;
+    padding: 10px;
 }
